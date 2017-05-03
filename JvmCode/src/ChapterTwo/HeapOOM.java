@@ -8,6 +8,8 @@ import java.util.List;
  * VM Args -Xms20m -Xmx20m -XX:+HeapDumpOnOutOfMemoryError
  * java堆的大小为20MB，不可扩展
  * -XX:+HeapDumpOnOutOfMemoryError 可以让虚拟机在出现内存溢出异常时dump出当前内存堆转储快照片
+ * 
+ * 堆内存无法分配 outOfMemory
  * @author snlu
  *
  */
